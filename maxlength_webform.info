@@ -1,0 +1,7 @@
+name = maxlength_webform
+description = Limit the number of characters in textfields and textareas and shows the amount of characters left. Based on haleagar's work at https://www.drupal.org/node/1459650
+core = 7.x
+package = Webform
+dependencies[] = maxlength
+dependencies[] = webform_validation
+dependencies[] = webform
