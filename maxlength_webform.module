@@ -34,7 +34,7 @@ function maxlength_webform_form_alter(&$form, $form_state, $form_id) {
 }
 
 /**
- * For a given webform_validation rule compoenent, and a given Drupal webform
+ * For a given webform_validation rule component, and a given Drupal webform
  * form, get a reference to the webform element represented by the rule
  * component; return the correct element regardless of how deeply it's nested
  * in webform fieldsets or other wrappers.
